@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+.no-select {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.no-select:active{
+  cursor: grab;
+  background-color: aliceblue;
+
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

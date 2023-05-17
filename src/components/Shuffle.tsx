@@ -1,7 +1,7 @@
 import {useContext} from 'react'
 import ResultContext from '../context/result'
 
-const Suffel = () => {
+const Shuffle = () => {
     const {result,setResult}:any=useContext(ResultContext)
 
     const onSuffel = () => {
@@ -20,11 +20,11 @@ const Suffel = () => {
 
     };
     return (
-        <div  className="card" onClick={onSuffel}>
+        <div  className="card no-select"   onClick={onSuffel}>
             <p> CLICK TO HIT  </p>
-            <h2>Suffel</h2>
+            <h2>shuffle</h2>
         </div>
     )
 }
 
-export default Suffel
+export default Shuffle

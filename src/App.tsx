@@ -1,9 +1,9 @@
 import "./App.css";
 import Card from "./components/Card";
-import Result from "./components/Result";
-import Suffel from "./components/Suffel";
+import Shuffle from "./components/Shuffle";
 import { useContext } from "react";
 import ResultContext from "./context/result";
+import Score from "./components/Score";
 
 function getRandomColor() {
     // Generate random values for red, green, and blue channels
@@ -40,8 +40,8 @@ const App = () => {
 
             <div>
               
-                <Result />
-                <Suffel />
+                <Score />
+                <Shuffle />
                
             </div>
 

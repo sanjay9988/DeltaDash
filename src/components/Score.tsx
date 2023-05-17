@@ -1,7 +1,7 @@
 import {useContext} from 'react'
 import ResultContext from '../context/result'
 
-const Result = () => {
+const Score = () => {
     const {result}:any=useContext(ResultContext)
     return (
         <div className="card">
@@ -11,4 +11,4 @@ const Result = () => {
     )
 }
 
-export default Result
+export default Score
