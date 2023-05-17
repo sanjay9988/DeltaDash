@@ -17,15 +17,15 @@ Description of your project goes here.
 3. Install dependencies using your preferred package manager:
 4. npm install
 
-##Usage
+#Usage
     Start the development server:
     npm run dev
 
-##Features
+#Features
     Suffel and score
 
-##Contributing
+#Contributing
     Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in the repository.
 
-##License
+#License
     MIT
