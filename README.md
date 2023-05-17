@@ -18,14 +18,15 @@ Description of your project goes here.
 4. npm install
 
 ## Usage
-    Start the development server:
+1.Start the development server:
+
     npm run dev
 
 ## Features
-    Suffel and score
+1.Suffel and score
 
 ## Contributing
-    Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in the repository.
+1.Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in the repository.
 
 ## License
-    MIT
+MIT
